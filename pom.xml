@@ -149,5 +149,10 @@
             </plugin>
         </plugins>
     </build>
-
+    <developers>
+	<developer>
+	    <name>Lucas Blotta</name>
+	    <email>blotta@github.com</email>
+	</developer>
+    </developers>
 </project>
