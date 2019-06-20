@@ -43,6 +43,14 @@ public class Ingresso {
 		this.preco = tipoDeIngresso.aplicaDesconto(sessao.getPreco());
 		this.lugar = lugar;
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 	
 	public BigDecimal getPreco() {
 		return preco.setScale(2, RoundingMode.HALF_UP);
