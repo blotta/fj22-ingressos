@@ -2,6 +2,8 @@ package br.com.caelum.ingresso.model;
 
 import java.time.YearMonth;
 
+import javax.validation.constraints.NotNull;
+
 public class Cartao {
 	
 	@NotNull
